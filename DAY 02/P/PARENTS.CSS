@@ -1,0 +1,14 @@
+.box {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+}
+.b {
+  border: 1px solid blue;
+}
+.y {
+  border: 1px solid yellow;
+}
+.g {
+  border: 1px solid green;
+}

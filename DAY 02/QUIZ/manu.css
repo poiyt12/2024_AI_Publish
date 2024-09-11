@@ -1,0 +1,16 @@
+div {
+  color: white;
+  background-color: black;
+  width: 120px;
+  font-size: 9px;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 3px;
+  text-align: left;
+  font-weight: 100;
+}
+p {
+  color: red;
+  font-size: 20px;
+}
