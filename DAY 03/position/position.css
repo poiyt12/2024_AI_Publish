@@ -1,0 +1,67 @@
+.con {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+.box2 {
+  display: flex;
+  flex-direction: row;
+}
+.contents {
+  width: 300px;
+  height: 300px;
+}
+.pink {
+  background-color: pink;
+}
+.skyblue {
+  background-color: skyblue;
+}
+.orange {
+  background-color: orange;
+}
+.lemon {
+  background-color: lemonchiffon;
+}
+.move {
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.move2 {
+  position: relative;
+  left: 300px;
+  bottom: 300px;
+}
+.move3 {
+  /* 크롬브라우저 기준 */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+body {
+  height: 300vh;
+}
+/* 화면에 고정 > 스크롤해도 따라옴(팝업창) */
+.move4 {
+  position: fixed;
+  top: 00px;
+  left: 00px;
+  z-index: 2;
+}
+.test {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.test1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

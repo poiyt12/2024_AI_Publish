@@ -1,0 +1,34 @@
+.coffee {
+  width: 200px;
+  height: 400px;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.album {
+  width: fit-content;
+  height: fit-content;
+  transition: all 1s;
+}
+.album > img {
+  width: 100%;
+  height: 100%;
+}
+.album:hover {
+  scale: 1.1;
+  rotate: 1480deg;
+}
+.present {
+  width: fit-content;
+  background-color: blue;
+  color: white;
+  font-weight: 400;
+}
+.present:hover {
+  scale: 1.01;
+  cursor: pointer;
+}

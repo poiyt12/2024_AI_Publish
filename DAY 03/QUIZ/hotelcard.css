@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.form {
+  width: fit-content;
+  height: fit-content;
+  gap: 20px;
+  border: 0px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel1.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card2 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel2.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card3 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel3.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card4 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel4.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aa {
+  font-size: 13px;
+  color: white;
+  padding: 15px 0px 0px 15px;
+  text-decoration: underline;
+}
+.bb {
+  font-size: 25px;
+  color: pink;
+  padding: 0px 0px 0px 15px;
+}
+.cc {
+  font-size: 15px;
+  color: white;
+  padding-right: 15px;
+  text-align: right;
+}
+.name {
+  font-family: "yg-jalnan";
+}

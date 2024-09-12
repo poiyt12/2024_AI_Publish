@@ -1,0 +1,8 @@
+.text {
+  color: skyblue;
+}
+/* 마우스 올리면 아래꺼 즉시 적용 */
+.text:hover {
+  background-color: pink;
+  font-size: 50px;
+}
