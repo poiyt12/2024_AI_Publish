@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.home {
+  width: 1800px;
+  height: 800px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.maintitle {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 10px;
+  gap: 10px;
+}
+.bigtitle {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-weight: 900;
+  align-items: center;
+}
+.smalltitle {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.categori {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.maingoods {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.album {
+  position: relative;
+  cursor: pointer;
+}
+.album:hover {
+  transform: scale(1.02);
+}
+.price {
+  font-size: 25px;
+  padding-left: 5px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.name {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sub {
+  font-size: 15px;
+  color: gray;
+}
+.manual {
+  border: 0.5px solid red;
+  width: fit-content;
+  padding: 2px;
+  color: red;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
+  border-radius: 9999px;
+  background-color: red;
+  padding: 5px;
+  position: absolute;
+  top: 345px;
+  left: 245px;
+  font-size: 40px;
+  opacity: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  scale: 0.8;
+  cursor: pointer;
+  z-index: 2;
+}
+.font1 {
+  font-family: "TheJamsil5Bold";
+}
+body {
+  height: 300vh;
+}

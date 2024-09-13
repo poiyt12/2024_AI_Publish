@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-key-visual-electrified-g80-25fl-main-hero-desktop-2560x900-kr.jpg);
+  background-size: cover;
+  cursor: grab;
+}
+.contents {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  color: white;
+  gap: 20px;
+  align-items: start;
+}
+.caption {
+  font-size: 25px;
+}
+.maintitle {
+  font-size: 80px;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.subtitle {
+  font-size: 25px;
+}
+.font {
+  font-family: "GmarketSansMedium";
+}
+.info {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 550px;
+  gap: 50px;
+  font-weight: 600;
+  transition: all 1s ease;
+  transition: linear;
+  /* 줄이 왼쪽에서 오른쪽 가는건 그레디언트와 링크 이용해서 만드는거임. */
+}
+.info > li:hover {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+.head {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  background-color: black;
+  z-index: 3;
+}
+.home {
+  width: 1700px;
+  color: silver;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+}
+.logo > img {
+  width: 200px;
+  height: 70px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.box2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.box3 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 500px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.box2 > li:hover {
+  color: white;
+  font-weight: 600;
+}
+.box3 > li:hover {
+  color: white;
+  font-weight: 600;
+}
+.car {
+  position: relative;
+  top: 1200px;
+}
+.carname {
+  color: white;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-transform: uppercase;
+}
+.one {
+  font-size: 40px;
+}
+.two {
+  color: #cccccc;
+}
+.three {
+  font-size: 20px;
+  border-bottom: 0.1ch solid white;
+  color: white;
+  border-top: 0ch solid white;
+  border-right: 0ch solid white;
+  border-left: 0ch solid white;
+  background-color: black;
+  padding-bottom: 10px;
+  width: 300px;
+}
+.icon {
+  margin-left: 250px;
+  font-weight: 900;
+}
+.carimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.carframe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  transition: all 0.7s ease;
+  color: silver;
+  cursor: context-menu;
+}
+.carframe:hover {
+  color: white;
+  border: 1px solid rgba(128, 128, 128, 0.062);
+  padding: 10px;
+}
+.carframe:hover > .detail {
+  transform: translateY(-10px);
+}
+.main2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 30px;
+}
+.main3 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 30px;
+}
+.new {
+  font-size: 12px;
+  margin-left: 190px;
+  border: 1px solid white;
+  padding: 5px 7px;
+}
+.album > img {
+  width: 380px;
+  height: 150px;
+}
+.aa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 100px;
+  scale: 1.2;
+}
+.detail {
+  color: silver;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 20px 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.detail:hover {
+  background-color: white;
+  color: black;
+}

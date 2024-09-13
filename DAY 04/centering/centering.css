@@ -1,0 +1,13 @@
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+.contents {
+  width: 100%;
+  /* 지금 모니터 최대 폭 1920px */
+  max-width: 1550px;
+  height: 100px;
+  background-color: skyblue;
+  margin: 0px auto;
+}
