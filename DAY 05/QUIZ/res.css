@@ -1,0 +1,35 @@
+.pc {
+  display: flex;
+  flex-direction: row;
+}
+.pcf {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.pc1 {
+  background-color: #1abc9c;
+}
+.pc2 {
+  background-color: #2ecc71;
+}
+.pc3 {
+  background-color: #3498db;
+}
+.pc4 {
+  background-color: #9b59b6;
+}
+
+@media screen and (max-width: 1024px) {
+  .pcf {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pc {
+    flex-direction: column;
+  }
+}
